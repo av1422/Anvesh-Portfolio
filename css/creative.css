@@ -160,7 +160,7 @@ header.masthead {
 
 .service-box {
   max-width: 400px; }
-
+/*
 .portfolio-box {
   position: relative;
   display: block;
@@ -176,7 +176,7 @@ header.masthead {
     opacity: 0;
     color: #fff;
     background: rgba(240, 95, 64, 0.9);
-    -webkit-transition: all 0.2s;
+   -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -199,7 +199,8 @@ header.masthead {
     opacity: 1; }
   .portfolio-box:focus {
     outline: none; }
-  @media (min-width: 768px) {
+*/
+    @media (min-width: 768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
@@ -214,6 +215,7 @@ header.masthead {
   border: none;
   border-radius: 300px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+ 
 
 .btn-xl {
   padding: 1rem 2rem; }
